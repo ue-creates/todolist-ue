@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./counter.js"></script>
     <title>Vite App</title>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
+    <h1>カウンター</h1>
+    <div id="count">回数: 0</div>
+    <button onclick="countUp()">クリック！</button>
+    <button onclick="reset()">リセット！</button>
   </body>
 </html>
